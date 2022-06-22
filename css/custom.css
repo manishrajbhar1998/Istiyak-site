@@ -1,0 +1,270 @@
+/* 1 General */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,800;1,400&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&family=Kalam:wght@700&family=Pacifico&family=Potta+One&display=swap');
+
+*{
+    /* font-family: 'Poppins', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+
+    font-family: 'Fascinate', cursive;
+    font-family: 'Kalam', cursive;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Potta One', cursive; */
+    transition: all 0.3s linear;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    /* Banckground Color */
+    /* --bg-black:#090b3c; */
+    --bg-black: #fb4d26;
+    --bg-white:#fff;
+    --bg-light-white:#fcfcfc;
+    --bg-light-2:#f2f7fa;
+    --bg-dark-green:#0e9d80;
+    --bg-dark-brown: #721905;
+    --bg-col-1:#fff6d6;
+    --bg-col-2:#ebdcf9;
+    --bg-col-3:#ddf5fc;
+    --bg-col-4:#dcf6e8;
+    --bg-col-5:#f8e4e1;
+    --bg-col-6:#fbffd4;
+
+    /* Text Color */
+    --text-black:#000;
+    --text-white:#fff;
+    --text-dark-gray:#4c535d;
+    --text-light-2:#798089;
+    --text-light-3:#5e5e72;
+    --text-light-4:#A0A0A0;
+    --text-dark-green:#12c4a0;
+    --text-orange:#ff5d2a;
+    --text-yellow: #ffc100;
+    --text-brown: #721905;
+
+    /* Fonts */
+    --primary-font: 'Quicksand', sans-serif;
+    --secondry-font: 'Poppins', sans-serif;
+    --thrid-font: 'Fascinate', cursive;
+    --forth-font: 'Kalam', cursive;
+    --fifth-font: 'Pacifico', cursive;
+    --sixth-font: 'Potta One', cursive;
+    --normal-weight: 400;
+    --bold-weight: 800;
+}
+body{
+    font-family: var(--primary-font);
+    font-weight: var(--normal-weight);
+    background: var(--bg-white);
+    background: url(../images/bg_footer.png);
+}
+
+.learn-more-btn{
+    background-color: var(--bg-black);
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--text-white) !important;
+    padding: 12px 29px !important;
+    border-radius: 10px;
+    border: 2px solid var(--bg-black);
+    box-shadow: 0 10px 20px rgb(0 0 0 / 10%);
+    display: inline-block;
+    text-decoration: none;
+    transition: 0.7s;
+}
+.btn-extra-header{
+    color: var(--text-dark-gray) !important;
+    background-color: transparent;
+    border: 2px solid var(--text-dark-gray);
+}
+
+/* 2 Navbar */
+.header_wrapper .navbar{
+    transition: all .2s linear;
+    -webkit-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    
+}
+.header_wrapper .navbar-brand span{
+    font-family: var(--sixth-font);
+    font-size: 25px;
+    transition: all .2s linear;  
+    color: var(--text-brown);
+}
+.header_wrapper .menu_navbar{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+.header_wrapper .nav-item{
+    margin: 0 10px;
+}
+.header_wrapper .nav-item .nav-link{
+    font-weight: var(--bold-weight);
+    color: var(--text-dark-gray);
+    line-height: 1;
+    font-size: 18px;
+}
+.header_wrapper .nav-item .nav-link.active{
+    color: var(--bg-black);
+}
+.header-scrolled{
+    position: fixed;
+    margin-top: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 65px;
+    background: var(--bg-white);
+    box-shadow: 0 4px 6px 0 rgba(12, 0, 46,.05);
+    -webkit-box-shadow: 0 4px 6px 0 rgba(12, 0, 46,.05);
+}
+.header-scrolled .navbar-brand span{
+    font-size: 20px;
+}
+
+.header-scrolled .nav-link{
+    font-size: 17px;
+}
+
+/* 3 Banner */
+.banner_wrapper{
+    padding: 100px 0;
+    display: flex;
+    width: 100%;
+    background: url(../images/bg.png) no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+.banner_wrapper .banner_subtitle{
+    font-size: 24px;
+    font-weight: 700;
+}
+.banner_wrapper .banner_title{
+    font-family: var(--secondry-font);
+    font-weight: 800;
+}
+.banner_wrapper .banner_title span{
+    color: var(--text-brown);
+}
+.banner_wrapper .banner-img img{
+    width: 100%;
+    animation: float 5s ease-in-out infinite;
+}
+@keyframes float {
+    0%{transform: translateY(0px);}
+    50%{transform: translateY(20px);}
+    100%{transform: translateY(0px);}
+}
+
+/* 3 Shayri */
+.title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    font-family: var(--sixth-font);
+    letter-spacing: 2px;
+    /* border-bottom: 2px dashed var(--bg-dark-green); */
+    width: 50%;
+    margin: 0px auto;
+}
+
+.shayri_wrapper .container{
+    background: rgba(251, 159, 117, 0.2);
+    z-index: -1;
+}  
+
+.shayri_wrapper .container .row{
+    height: 50vh;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.shayri_wrapper .num{
+    background-color: var(--bg-black);
+    color: var(--text-white);
+    padding: 10px 14px;
+    text-align: center;
+    margin: 20px 20px;
+    border-radius: 10px;
+    font-weight: 800;
+}
+.shayri_wrapper .sharyi_content p{
+    font-size: 20px;
+    margin-top: 100px;
+    font-family: var(--forth-font);
+    line-height: 2;
+}
+/* width */
+.shayri_wrapper .container .row::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+.shayri_wrapper .container .row::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+.shayri_wrapper .container .row::-webkit-scrollbar-thumb {
+    background: #888;
+    background: var(--bg-dark-green);
+  }
+  
+  /* Handle on hover */
+.shayri_wrapper .container .row::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+.motivational_wrapper .container{
+    background: rgba(157, 251, 117, 0.2);
+}  
+
+.motivational_wrapper .container .row{
+    height: 50vh;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.motivational_wrapper .num{
+    background-color: var(--bg-dark-green);
+    color: var(--text-white);
+    padding: 10px 14px;
+    text-align: center;
+    margin: 20px 20px;
+    border-radius: 10px;
+    font-weight: 800;
+}
+.motivational_wrapper .motivational_content p{
+    font-size: 20px;
+    margin-top: 100px;
+    font-family: var(--forth-font);
+    line-height: 2;
+}
+/* width */
+.motivational_wrapper .container .row::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+.motivational_wrapper .container .row::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+.motivational_wrapper .container .row::-webkit-scrollbar-thumb {
+    background: #888;
+    background: var(--bg-dark-green);
+  }
+  
+  /* Handle on hover */
+.motivational_wrapper .container .row::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }  
+
+
+
+

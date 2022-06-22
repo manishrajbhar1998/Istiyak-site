@@ -1,0 +1,65 @@
+@media (max-width:1300px){
+    .header_wrapper .menu_navbar{
+        width: auto;
+    }
+}
+
+@media (max-width:1200px){
+    
+}
+
+@media (max-width:1075px){
+    .header_wrapper .nav-item .nav-link{
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    .learn-more-btn{
+        padding: 10px !important;
+    }
+    
+}
+
+@media (max-width:991px){
+    /* 2 Navbar */
+    .header_wrapper .navbar-brand span{
+        font-size: 20px;
+    }
+    .header_wrapper .navbar-toggler:focus{
+        box-shadow: none;
+    }
+    .header_wrapper .menu_navbar{
+        text-align: center;
+    }
+    .header_wrapper .nav-item:last-child .nav-link{
+        margin-bottom: 20px;
+    }
+    .header_wrapper .navbar-collapse{
+        background: var(--bg-white);
+    }
+
+    /* 3 Banner */
+    .banner_wrapper{
+        padding: 50px 0;
+    }
+
+    /* 4 Shayari */
+    .shayri_wrapper .sharyi_content p{
+        font-size: 20px;
+        margin-top: 50px;
+        line-height: 2.2;
+    }
+
+    .motivational_wrapper .motivational_content p{
+        font-size: 20px;
+        margin-top: 50px;
+        line-height: 2.2;
+    }
+}
+
+@media (max-width:700px){
+    
+}
+
+@media (max-width:550px){
+    
+}
