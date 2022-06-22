@@ -197,27 +197,22 @@ body{
     font-family: var(--forth-font);
     line-height: 2;
 }
-/* width */
 .shayri_wrapper .container .row::-webkit-scrollbar {
     width: 5px;
   }
-  
-  /* Track */
 .shayri_wrapper .container .row::-webkit-scrollbar-track {
     background: #f1f1f1;
   }
-  
-  /* Handle */
 .shayri_wrapper .container .row::-webkit-scrollbar-thumb {
     background: #888;
     background: var(--bg-black);
   }
-  
-  /* Handle on hover */
 .shayri_wrapper .container .row::-webkit-scrollbar-thumb:hover {
     background: #555;
   }
-
+ 
+  
+/* 4 Motivational */
 .motivational_wrapper .container{
     background: rgba(157, 251, 117, 0.2);
 }  
@@ -245,23 +240,40 @@ body{
 /* width */
 .motivational_wrapper .container .row::-webkit-scrollbar {
     width: 5px;
-  }
+}
   
-  /* Track */
+/* Track */
 .motivational_wrapper .container .row::-webkit-scrollbar-track {
     background: #f1f1f1;
-  }
+}
   
-  /* Handle */
+/* Handle */
 .motivational_wrapper .container .row::-webkit-scrollbar-thumb {
     background: #888;
     background: var(--bg-dark-green);
-  }
+}
   
-  /* Handle on hover */
+/* Handle on hover */
 .motivational_wrapper .container .row::-webkit-scrollbar-thumb:hover {
     background: #555;
-  }  
+} 
+
+/* 5 Footer */
+.footer_wrapper{
+    background: var(--bg-black);
+    color: var(--text-white);
+}
+.footer_wrapper .footer_title{
+    font-weight: 800;
+}
+.footer_wrapper .social i{
+    font-size: 30px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+  
+
 
 
 

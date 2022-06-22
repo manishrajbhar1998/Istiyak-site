@@ -37,18 +37,19 @@
         background: var(--bg-white);
     }
 
-    /* 3 Banner */
+    /* 2 Banner */
     .banner_wrapper{
         padding: 50px 0;
     }
 
-    /* 4 Shayari */
+    /* 3 Shayari */
     .shayri_wrapper .sharyi_content p{
         font-size: 20px;
         margin-top: 50px;
         line-height: 2.2;
     }
 
+    /* 4 motivational */
     .motivational_wrapper .motivational_content p{
         font-size: 20px;
         margin-top: 50px;
@@ -58,7 +59,7 @@
 
 @media (max-width:700px){
 
-    /* title */
+    /* 3-4 title */
     .title{
         font-size: 24px;
     }
