@@ -169,9 +169,7 @@ body{
     font-weight: 800;
     font-family: var(--sixth-font);
     letter-spacing: 2px;
-    /* border-bottom: 2px dashed var(--bg-dark-green); */
-    width: 50%;
-    margin: 0px auto;
+    padding-top: 20px;
 }
 
 .shayri_wrapper .container{
@@ -212,7 +210,7 @@ body{
   /* Handle */
 .shayri_wrapper .container .row::-webkit-scrollbar-thumb {
     background: #888;
-    background: var(--bg-dark-green);
+    background: var(--bg-black);
   }
   
   /* Handle on hover */
